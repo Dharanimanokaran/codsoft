@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>personal portfolia</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/ce06e1775d.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+     <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars"  onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi,<br>I'm <span>Dharani</span></h1>
+                <br>
+                <p>Web Designer</p>
+            </div>
+        </div>
+     </div>
+     <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="c:\Users\dhara\OneDrive\Desktop\my pic\image2.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1><br><br>
+                    <h2 ><span>I'm Dharani</span></h2>
+                    <p>Hello! I'm a first-year Computer Technology Student at
+                         Bannari Amman Institute Of Technology.<br>
+                         I'm on a journey of discovery as a budding web designer.
+                         With a passion for learning and a keen eye for design,
+                          I'm dedicated to mastering the art of creating captivating websites. 
+                          As a learner in this field, I'm eager to absorb knowledge,
+                           refine my skills, and unleash creativity to craft engaging digital experiences.
+                            Let's collaborate and create something extraordinary!.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link"onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>   
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing web interfaces</li>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                        <li><span>C</span></li>
+                        <li><span>C++</span></li>
+                        <li><span>python</span></li>
+                    </ul>
+                </div>   
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2024 - Current</span><br><br>Web Development<br><br>
+                        C Language<br><br>Python</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023</span><br><br>Computet technology at
+                        Bannari Amman Institute Of Technology</li>
+                
+                    </ul>
+                </div>    
+                </div>
+            </div>
+        </div>
+     </div>
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2> Web Design</h2>
+                    <p2>Designing unique and tailored websites from
+                         scratch based on client's requirements and preferences.
+                         Ensuring that websites are optimized for various devices 
+                         and screen sizes to provide an optimal viewing experience.</p2>
+                         <br><a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2> UI/UX Design</h2>
+                    <p2>Conducting research to understand the needs,
+                         behaviors, and preferences of target users to 
+                         inform design decisions.Providing guidance and 
+                         expertise to clients on UI/UX best practices, trends, and
+                          strategies for enhancing user satisfaction and engagement.</p2>
+                          <br><a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2> App Design</h2>
+                    <p2>Developing low-fidelity wireframes and interactive prototypes
+                         to visualize the app's structure and functionality before 
+                         development.Monitoring user feedback, analytics, and
+                          industry trends to iteratively improve the app's design and
+                           user experience over time.</p2>
+                           <br><a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+     </div>
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="c:\Users\dhara\OneDrive\Pictures\Screenshot (14).png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p2>A social media app is a digital platform designed to
+                             facilitate social interaction, communication, and 
+                             content sharing among users.</p2><br>
+                             <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="c:\Users\dhara\OneDrive\Pictures\Screenshot (15).png"><div class="layer">
+                        <h3>Music App</h3>
+                        <p2>A music app is a digital platform that allows users to access,
+                             discover, stream, and sometimes download music on their devices.</p2><br>
+                             <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="c:\Users\dhara\Videos\Captures\Media Player 25-02-2024 12_41_34 PM (2).png">
+                    <div class="layer">
+                        <h3>Calculator</h3>
+                        <p2>A calculator created using HTML is a web-based tool designed
+                             to perform mathematical calculations directly within a 
+                             web browser. It typically utilizes HTML, CSS, and JavaScript
+                              to create the user interface and handle the calculations.</p2><br>
+                             <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+     </div>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+              <h1 class="sub-title">Contact Me</h1>
+              <p><i class="fas fa-paper-plane"></i>dharani31082005@gmail.com</p>
+              <div class="social-icons">
+                <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p2>Copyright  Dharani<i class="fa-solid fa-heart"></i></p2>
+    </div>
+</div>
+
+     <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+     </script>
+     <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+     </script>
+    </body>
+</html>
+  
